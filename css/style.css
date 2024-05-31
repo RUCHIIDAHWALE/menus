@@ -56,9 +56,9 @@
     bottom: 0;
     left: 0;
     width: 100%;
-        background-color: #ffe6cc;
-        color: #000;
-        display: none;
+    background-color: #ffe6cc;
+    color: #000;
+    display: none;
 }
 
 .bottom-menu-icon{
@@ -67,7 +67,6 @@
     padding: 5px;
     height: 25px;
     border-radius: 5px;
-
 }
 
 .bottom-menu-icon-active{
@@ -83,9 +82,7 @@
             justify-content: space-around;
             align-items: center;
             position:fixed;
-    
         }
-
 }
 
 @media screen and (min-width:601px)and(max-width:768px) {
@@ -93,20 +90,26 @@
         display: none;
     }
 
-        .bottom-navigation-bar {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
+   .bottom-navigation-bar {
+      display: flex;
+     justify-content: space-around;
+     align-items: center;
         }
-
-        
 
 @media screen and (min-width:769px)and(max-width:992px) {
     .bottom-navigation-bar {
             display: flex;
             justify-content:space-around ;
         }
-
 }
 
-@media screen and (min-width:992)and(max-width:1250px) {}
+@media screen and (min-width:992)and(max-width:1200px){
+     .cake-card{
+   display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+
+}
+}
