@@ -104,9 +104,6 @@
         }
     
 
-    
-    
-
  @media screen and (min-width:769px)and(max-width:992px) {
      .bottom-navigation-bar {
          display: flex;
@@ -121,7 +118,6 @@
               flex-wrap: wrap;
     }
 
-
          @media screen and (min-widtth:993px)and(max-width:1250px) {
         .cake-card {
                 display: flex;
@@ -131,5 +127,5 @@
                 flex-wrap: wrap;
         
             }
-        
+    
         }
